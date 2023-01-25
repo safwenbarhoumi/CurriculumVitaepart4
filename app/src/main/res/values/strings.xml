@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Application Curriculum Vitae part4</string>
+
+    <string name="amazon"> amazon is a society working </string>
+
+    <string name="esprit">
+        esprit is an ecole private
+    </string>
+
+
+    <string name="facebook">
+       facebook is a platforme for connecting with other people
+
+    </string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

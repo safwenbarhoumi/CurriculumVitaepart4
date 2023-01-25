@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="add expérience"
+        android:id="@+id/expe"/>
+    <item
+        android:title="add education"
+        android:id="@+id/educ"/>
+
+
+</menu>

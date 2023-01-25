@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Edu"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ccccccccccc" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CompanyName"
+            tools:ignore="TouchTargetSizeCheck"
+            style="@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox"
+            android:drawableStart="@drawable/ic_company"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CompanyAdress"
+            tools:ignore="TouchTargetSizeCheck"
+            android:drawableStart="@drawable/ic_location"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="StartDate"
+            tools:ignore="TouchTargetSizeCheck"
+            android:drawableStart="@drawable/ic_date"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EndDate"
+            tools:ignore="TouchTargetSizeCheck"
+            android:drawableStart="@drawable/ic_date"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimary"
+        android:text="Save"
+        android:textColor="@color/white"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+</LinearLayout>
